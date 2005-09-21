@@ -4,12 +4,12 @@
 %define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
 Summary:	Epeg JPEG scaler for Ruby
 Name:		ruby-epeg
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
 License:	Ruby License
 Group:		Development/Languages
 Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
-# Source0-md5:	1d6799c40380573f7e4233ee8886dc08
+# Source0-md5:	245cf3d7f60b9162091296961ec3f421
 URL:		http://theinternetco.net/projects/ruby/ruby-epeg
 BuildRequires:	epeg-devel
 BuildRequires:	ruby
