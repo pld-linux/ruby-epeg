@@ -3,6 +3,7 @@
 %define	ruby_ridir	%(ruby -r rbconfig -e 'include Config; print File.join(CONFIG["datadir"], "ri", CONFIG["ruby_version"], "system")')
 %define	ruby_version	%(ruby -r rbconfig -e 'print Config::CONFIG["ruby_version"]')
 Summary:	Epeg JPEG scaler for Ruby
+Summary(pl):	Epeg - biblioteka do skalowania JPEG-ów dla jêzyka Ruby
 Name:		ruby-epeg
 Version:	0.0.2
 Release:	1
@@ -19,6 +20,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 ruby-epeg is an extension to use the fast E17 epeg JPEG scaler.
+
+%description -l pl
+ruby-epeg to rozszerzenie do u¿ywania epega - szybkiej biblioteki do
+skalowania JPEG-ów z E17.
 
 %prep
 %setup -q
