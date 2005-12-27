@@ -2,7 +2,7 @@ Summary:	Epeg JPEG scaler for Ruby
 Summary(pl):	Epeg - biblioteka do skalowania JPEG-ów dla jêzyka Ruby
 Name:		ruby-epeg
 Version:	0.0.2
-Release:	1
+Release:	2
 License:	Ruby License
 Group:		Development/Languages
 Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
@@ -10,9 +10,9 @@ Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 URL:		http://theinternetco.net/projects/ruby/ruby-epeg
 BuildRequires:	epeg-devel
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
-Requires:	ruby
+Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
