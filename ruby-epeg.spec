@@ -10,7 +10,6 @@ Source0:	http://theinternetco.net/projects/ruby/%{name}-%{version}.tar.gz
 URL:		http://theinternetco.net/projects/ruby/ruby-epeg
 BuildRequires:	epeg-devel
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 Requires:	ruby-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
