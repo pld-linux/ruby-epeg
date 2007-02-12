@@ -1,5 +1,5 @@
 Summary:	Epeg JPEG scaler for Ruby
-Summary(pl.UTF-8):   Epeg - biblioteka do skalowania JPEG-ów dla języka Ruby
+Summary(pl.UTF-8):	Epeg - biblioteka do skalowania JPEG-ów dla języka Ruby
 Name:		ruby-epeg
 Version:	0.0.2
 Release:	2
